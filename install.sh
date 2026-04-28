@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 echo installing required packages
-sudo pacman -S --noconfirm  $(cat ./pacman_packages)
+sudo pacman -Sy --noconfirm  $(cat ./pacman_packages)
 
 echo linking rc
 ln -f $PWD/rc $HOME/.rc_soap
