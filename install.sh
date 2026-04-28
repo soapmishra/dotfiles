@@ -4,7 +4,7 @@ echo installing required packages
 sudo pacman -S --noconfirm  $(cat ./pacman_packages)
 
 echo linking rc
-ln $PWD/rc $HOME/.rc_soap
+ln -f $PWD/rc $HOME/.rc_soap
 
 echo activating .rc_soap in zshrc
 head -n -1 /usr/share/oh-my-zsh/zshrc | tee $HOME/.zshrc
