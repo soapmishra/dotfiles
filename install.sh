@@ -19,3 +19,5 @@ tail -n 1 /usr/share/oh-my-zsh/zshrc | tee -a $HOME/.zshrc
 
 echo Changing default shell to zsh
 sudo chsh $USER -s /usr/bin/zsh
+
+echo Restart the machine to apply changes
