@@ -11,3 +11,14 @@ cd $HOME/.soap-dotfiles
 bash ./install.sh
 cd ~
 ```
+## Uninstall
+### remove the folder
+```bash
+rm -rf $HOME/.soap-dotfiles
+```
+### delete the rc and its referencing file
+```
+rm -rf $HOME/.zshrc $HOME/.rc_soap
+```
+### uninstall packages
+see the [pacman_packages](https://github.com/soapmishra/dotfiles/pacman_packages) file in the repository for a list of packages the install script syncs, uninstall any/all you don't need with
