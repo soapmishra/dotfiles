@@ -5,7 +5,8 @@
 
 ## Install to your user account
 ```bash
-git clone https://github.com/soapmishra/dotfiles $HOME/soap-dotfiles
-cd $HOME/soap-dotfiles
+git clone https://github.com/soapmishra/dotfiles $HOME/.soap-dotfiles
+cd $HOME/.soap-dotfiles
 bash ./install.sh
+cd ~
 ```
