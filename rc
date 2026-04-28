@@ -1,0 +1,10 @@
+plugins=(git fzf command-not-found)
+ZSH_THEME="half-life"
+alias ls="lsd"
+alias grep="grep --colour=auto"
+eval "$(thefuck --alias)"
+setopt correct
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+fastfetch
